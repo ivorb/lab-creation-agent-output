@@ -1,0 +1,7 @@
+product_id,product_name,quantity_on_hand,reorder_level
+P-1001,USB-C cable,4,10
+P-1002,"Desk lamp, adjustable",12,12
+P-1003,Notebook,25,20
+P-1004,Wireless mouse,3,8
+P-1005,Monitor stand,4,6
+P-1006,Keyboard,6,6
