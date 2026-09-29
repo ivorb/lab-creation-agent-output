@@ -17,13 +17,21 @@ Labfiles/
         data/                      # When required
 .github/
     authoring/
+        agent-instructions.md
         template.md
         authoring-conventions.md
 ```
 
-The empty folders are ready for the first exercise. Do not create an empty starter
-application for a portal-only exercise; include any required data in `Labfiles`.
+Do not create an empty starter application for a portal-only exercise; include
+any required data in `Labfiles`.
 Keep exercise numbering and asset paths consistent across the package.
+
+## Review drafts
+
+[Generate an inventory reorder report with Python](Instructions/Exercises/01-inventory-replenishment.md)
+is a 20-minute exercise with learner starter code and synthetic CSV data. The
+exercise and [public writer-instruction snapshot](.github/authoring/agent-instructions.md)
+are drafts for human review, not approved publication-ready content.
 
 ## Authoring and review
 
@@ -67,6 +75,9 @@ publishing is not connected yet. The intended publishing flow is:
 1. Generate the exercise and supporting files.
 1. Validate the package and inspect the files intended for publication.
 1. Publish the files to a new branch and open a pull request.
+
+The inventory exercise was submitted through an explicitly authorized one-off
+publishing session, not an automatic Foundry-to-GitHub integration.
 
 Keep research access read-only. A separate publisher should have write permission
 only to this repository and explicit safeguards against overwriting unrelated
